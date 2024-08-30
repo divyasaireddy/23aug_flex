@@ -1,0 +1,82 @@
+.main1{
+    background-color: blue;
+    text-align: center;
+    padding:50px;
+    flex-wrap: no-wrap;
+}
+.main2{
+   padding: 50px;
+   letter-spacing: 5px;
+}
+.line1{
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color:rgb(227, 216, 222);
+    font-weight: 900;
+}
+.line2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(239, 198, 238);
+}
+
+.main3{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px;
+}
+.container1{
+    padding: 50px;
+    width: 200px;
+    line-height: 35px;
+    background-color: white;
+    border-radius: 20px;
+}
+.two{
+   color: orangered;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+}
+.three::first-letter{
+    font-size: 20px;
+    color: blue;
+}
+.three{
+    font-size: 40px;
+    color: blue;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.four{
+    color: blue;
+}
+.five{
+    display: inline-block;
+}
+.container1:hover{
+    transform: scale(1.2,1.2);
+} 
+.container1:hover a{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.most{
+    margin-top: -50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.container1:hover .most{
+    background-color: rgb(244, 159, 128);
+    padding: 5px;
+
+}
+
+
+
